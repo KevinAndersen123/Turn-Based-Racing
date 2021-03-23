@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Controller.cpp" />
+    <ClCompile Include="Controls.cpp" />
+    <ClCompile Include="Credits.cpp" />
+    <ClCompile Include="Cutscene.cpp" />
+    <ClCompile Include="Equipment.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GamePlay.cpp" />
+    <ClCompile Include="Highscore.cpp" />
+    <ClCompile Include="LevelLoader.cpp" />
+    <ClCompile Include="Licence.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MainMenu.cpp" />
+    <ClCompile Include="Options.cpp" />
+    <ClCompile Include="Pause.cpp" />
+    <ClCompile Include="Splash.cpp" />
+    <ClCompile Include="Store.cpp" />
+    <ClCompile Include="TrackSelection.cpp" />
+    <ClCompile Include="Label.cpp" />
+    <ClCompile Include="TextButtons.cpp" />
+    <ClCompile Include="Button.cpp" />
+    <ClCompile Include="UpgradeItem.cpp" />
+    <ClCompile Include="SelectBox.cpp" />
+    <ClCompile Include="Slider.cpp" />
+    <ClCompile Include="Car.cpp" />
+    <ClCompile Include="Label.cpp" />
+    <ClCompile Include="TextButtons.cpp" />
+    <ClCompile Include="UpgradesTab.cpp" />
+    <ClCompile Include="AiCar.cpp" />
+    <ClCompile Include="MathUtility.cpp" />
+    <ClCompile Include="Rhombus.cpp" />
+    <ClCompile Include="CollisionDetector.cpp" />
+    <ClCompile Include="OrientedBoundingBox.cpp" />
+    <ClCompile Include="MyMatrix3.cpp" />
+    <ClCompile Include="MyVector3.cpp" />
+    <ClCompile Include="Hud.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="ResourceManager.cpp" />
+    <ClCompile Include="shader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Controller.h" />
+    <ClInclude Include="Controls.h" />
+    <ClInclude Include="Credits.h" />
+    <ClInclude Include="Cutscene.h" />
+    <ClInclude Include="Equipment.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GamePlay.h" />
+    <ClInclude Include="Globals.h" />
+    <ClInclude Include="Highscore.h" />
+    <ClInclude Include="LevelLoader.h" />
+    <ClInclude Include="Licence.h" />
+    <ClInclude Include="MainMenu.h" />
+    <ClInclude Include="Options.h" />
+    <ClInclude Include="Pause.h" />
+    <ClInclude Include="Splash.h" />
+    <ClInclude Include="Store.h" />
+    <ClInclude Include="TrackSelection.h" />
+    <ClInclude Include="Label.h" />
+    <ClInclude Include="TextButtons.h" />
+    <ClInclude Include="UpgradeItem.h" />
+    <ClInclude Include="SelectBox.h" />
+    <ClInclude Include="Slider.h" />
+    <ClInclude Include="Car.h" />
+    <ClInclude Include="MathUtility.h" />
+    <ClInclude Include="Label.h" />
+    <ClInclude Include="TextButtons.h" />
+    <ClInclude Include="UpgradesTab.h" />
+    <ClInclude Include="Rhombus.h" />
+    <ClInclude Include="CollisionDetector.h" />
+    <ClInclude Include="OrientedBoundingBox.h" />
+    <ClInclude Include="AiCar.h" />
+    <ClInclude Include="MyMatrix3.h" />
+    <ClInclude Include="MyVector3.h" />
+    <ClInclude Include="Hud.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="ResourceManager.h" />
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="shader.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="level1.yaml" />
+  </ItemGroup>
+</Project>

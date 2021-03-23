@@ -1,0 +1,212 @@
+MyFonts:
+   neon_font_file: 'ASSETS\FONTS\neon2.ttf'
+   arial_black_font_file: 'ASSETS\FONTS\font.ttf'
+   neon_font: neonfont
+   arial_black_font: arialblackfont
+MyTextures:
+   bg_one_ID: controlsBg
+   bg_one_file: ASSETS/IMAGES/Licence/background.png
+   bg_two_ID: bGTwo
+   bg_two_file: ASSETS/IMAGES/MainMenu/background.png
+   bg_three_ID: bgThree
+   bg_three_file: ASSETS/IMAGES/bgNeon.png
+   bg_four_ID: bGFour
+   bg_four_file: ASSETS/IMAGES/highscores/background/background.jpg
+   bg_five_ID: bGFive
+   bg_five_file: ASSETS/IMAGES/optionsBG.png
+   bg_six_ID: bGSix
+   bg_six_file: ASSETS/IMAGES/SplashBackground.jpg
+   bg_seven_ID: bGSeven
+   bg_seven_file: ASSETS/IMAGES/storeBackground.png
+#-----------------------------------------------------------
+#MainMenu
+   main_left_ID: mainLeft
+   main_left_file: ASSETS/IMAGES/MainMenu/bgLeft.png
+   main_car_ID: car1
+   main_car_file: ASSETS/IMAGES/MainMenu/car.png
+   main_heading_ID: mainHeading
+   main_heading_file: ASSETS/IMAGES/MainMenu/Heading.png
+   main_car2_ID: car2
+   main_car2_file: ASSETS/IMAGES/MainMenu/car2.png
+   main_bottom_ID: mainBottom
+   main_bottom_file: ASSETS/IMAGES/MainMenu/bgBottom.png
+#------------------------------------------------------------
+#controls screen
+   controls_controller_ID: controlsController
+   controls_controller_file: ASSETS/IMAGES/Controls/controller.png
+   controls_overlay_game_ID: controlsOGame
+   controls_overlay_game_file: ASSETS/IMAGES/Controls/overlayGameplay.png
+   controls_overlay_main_ID: controlsOMain
+   controls_overlay_main_file: ASSETS/IMAGES/Controls/overlayMainMenu.png
+   controls_overlay_track_ID: controlsOTrack
+   controls_overlay_track_file: ASSETS/IMAGES/Controls/overlayTrackSelect.png
+   controls_overlay_leader_ID: controlsOLeader
+   controls_overlay_leader_file: ASSETS/IMAGES/Controls/overlayLeaderboard.png
+   controls_overlay_store_ID: controlsOStore
+   controls_overlay_store_file: ASSETS/IMAGES/Controls/overlayStore.png
+#------------------------------------------------------------
+   coin_ID: coin
+   coin_File: ASSETS/IMAGES/coin.png
+   hud_ID: 'hudImage'
+   hud_file: ASSETS/IMAGES/HUD.png
+   sfml_logo_ID: 'sfmlLogo'
+   sfml_logo_file: ASSETS/IMAGES/Licence/logo.png
+   car_spritesheet_ID: cars
+   car_spritesheet_file: ASSETS/IMAGES/CarSpriteSheet.png
+   tab_ID: tab
+   tab_file: ASSETS/IMAGES/upgradeTab.png
+   equipment_wheel_ID: wheel
+   equipment_wheel_file: ASSETS/IMAGES/Equipment/wheel.png
+   equipmenet_outline_ID: 'outline'
+   equipment_outline_file: ASSETS/IMAGES/Equipment/outline.png
+#-------------------------------------------------------------
+#HighScore
+   highscore_heading_ID: highscoreHeading
+   highscore_heading_file: ASSETS/IMAGES/highscores/background/heading.png
+   highscore_main_ID: mainButton
+   highscore_main_file: ASSETS/IMAGES/highscores/background/main.png
+   highscore_back_ID: backButton
+   highscore_back_file: ASSETS/IMAGES/highscores/background/back.png
+#--------------------------------------------------------------
+MySounds:
+   back_sound_ID: backSound
+   back_sound_file: ASSETS/AUDIO/back.wav
+   select_sound_ID: selectSound
+   select_sound_file: ASSETS/AUDIO/select.wav
+   accelerating_sound_ID: accelSound
+   accelerating_sound_file: ASSETS/AUDIO/accelerating.ogg
+   brake_sound_ID: brakeSound
+   brake_sound_file: ASSETS/AUDIO/brake.ogg
+   buy_sound_ID: buySound
+   buy_sound_file: ASSETS/AUDIO/buy.ogg
+   downshift_sound_ID: downshiftSound
+   downshift_sound_file: ASSETS/AUDIO/downshifting.ogg
+   move_sound_ID: moveSound
+   move_sound_file: ASSETS/AUDIO/move.wav
+   light_buzz_ID: lightBuzz
+   light_buzz_file: ASSETS/AUDIO/neonLightEffect.ogg
+carSprite:
+   intRect1: {x: 0, y: 183, w: 354, h: 182}
+   intRect2: {x: 355, y: 0, w: 354, h: 182}
+   intRect3: {x: 0, y: 0, w: 354, h: 182}
+   intRect4: {x: 355, y: 183, w: 354, h: 182}
+car1:
+   position: {x: 3475, y: 800}
+   rotation: 0
+car2:
+   position: {x: 3500, y: 700}
+   rotation: 0
+car3:
+   position: {x: 100, y: 100}
+   rotation: 0
+car4:
+   position: {x: 150, y: 100}
+   rotation: 0
+Upgrades:
+  - type: spoiler
+    price: 500
+    name: 'XL Spoiler'
+    modifier: 5
+  - type: spoiler
+    price: 400
+    name: 'L Spoiler'
+    modifier: 4
+  - type: spoiler
+    price: 300
+    name: 'M Spoiler'
+    modifier: 3
+  - type: spoiler
+    name: 'S Spoiler'
+    price: 200
+    modifier: 2
+  - type: spoiler
+    price: 100
+    name: 'XS Spoiler'
+    modifier: 1
+  - type: tyres
+    price: 500
+    name: 'XL Tyres'
+    modifier: 5
+  - type: tyres
+    price: 400
+    name: 'L Tyres'
+    modifier: 4
+  - type: tyres
+    price: 300
+    name: 'M Tyres'
+    modifier: 3
+  - type: tyres
+    price: 200
+    name: 'S Tyres'
+    modifier: 2
+  - type: tyres
+    price: 100
+    name: 'XS Tyres'
+    modifier: 1
+  - type: brakes
+    price: 500
+    name: 'XL Brakes'
+    modifier: 5
+  - type: brakes
+    price: 400
+    name: 'L Brakes'
+    modifier: 4
+  - type: brakes
+    price: 300
+    name: 'M Brakes'
+    modifier: 3
+  - type: brakes
+    price: 200
+    name: 'S Brakes'
+    modifier: 2
+  - type: brakes
+    price: 100
+    name: 'XS Brakes'
+    modifier: 1
+  - type: engine
+    price: 500
+    name: 'XL Engine'
+    modifier: 5
+  - type: engine
+    price: 400
+    name: 'L Engine'
+    modifier: 4
+  - type: engine
+    price: 300
+    name: 'M Engine'
+    modifier: 3
+  - type: engine
+    price: 200
+    name: 'S Engine'
+    modifier: 2
+  - type: engine
+    price: 100
+    name: 'XS Engine'
+    modifier: 1
+HighScore:
+   - time: 30
+     name: name1
+   - time: 50
+     name: name2
+   - time: 60
+     name: name3
+   - time: 80
+     name: name4
+   - time: 90
+     name: name5
+   - time: 100
+     name: name6
+   - time: 110
+     name: name7
+   - time: 120
+     name: name8
+   - time: 130
+     name: name9
+   - time: 140
+     name: name10
+   - time: 150
+     name: name11
+   - time: 160
+     name: name12
+   - time: 170
+     name: name13

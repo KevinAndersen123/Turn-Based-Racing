@@ -1,0 +1,4 @@
+blueCar = 0 0 354 182
+greenCar = 0 183 354 182
+pinkCar = 355 0 354 182
+yellowCar = 355 183 354 182
